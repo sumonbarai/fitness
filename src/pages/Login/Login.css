@@ -1,0 +1,47 @@
+.login-form {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.login-form form {
+  border: 2px solid #db1d45;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+}
+.login-form form h3 {
+  background-color: #db1d45;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.login-form form .form-content {
+  padding: 20px;
+}
+.login-form form .form-content input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 2px solid #db1d45;
+}
+.login-form form .form-content input[type="submit"] {
+  background-color: #db1d45;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+.login-form form .form-content .forget-password a {
+  color: #db1d45;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login-form form .form-content .not-member {
+  margin-bottom: 30px;
+}
+.login-form form .form-content .not-member a {
+  color: #db1d45;
+  cursor: pointer;
+  text-decoration: none;
+}
