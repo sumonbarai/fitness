@@ -1,0 +1,12 @@
+.header-area {
+  background-color: #1d1d1d;
+}
+.header-area .custom-logo {
+  width: 100px;
+}
+.header-area a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+}
