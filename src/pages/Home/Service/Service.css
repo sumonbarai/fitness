@@ -1,0 +1,12 @@
+.single-service {
+  text-align: center;
+  cursor: pointer;
+}
+.single-service img {
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.single-service:hover .cards {
+  border: 1px solid red;
+}

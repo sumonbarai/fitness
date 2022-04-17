@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "BODY CONDITION",
+    "price": "$ 300",
+    "description": "body condition do the workouts in order, sticking to the exercises, sets, reps, tempo (explained below). The first workout of each week targets your chest and triceps",
+    "img": "https://i.ibb.co/r3xBvyC/service1.png"
+  },
+  {
+    "id": 2,
+    "name": "BOXING DAY",
+    "price": "$ 100",
+    "description": "Boxing day from one workout to the next is what we all strive for in the gym,strive for in the gym however,such as always doing the same reps/sets or constantly",
+    "img": "https://i.ibb.co/xhGZHYL/service2.png"
+  },
+  {
+    "id": 3,
+    "name": "LEGS EXERCISE",
+    "price": "$ 150",
+    "description": "In order to maximize your results from the gym, you must focus on your diet, as eating the wrong foods can be detrimental to your bodybuilding goals. That is not good",
+    "img": "https://i.ibb.co/g3F1JJB/service3.png"
+  },
+  {
+    "id": 4,
+    "name": "FAT BURN",
+    "price": "$ 180",
+    "description": "Fat burn from one workout to the next is what we all strive for in the gym, however, some stick to whats more comfortable, such as always doing the same reps/sets or constantly",
+    "img": "https://i.ibb.co/Fmwbj7v/service4.png"
+  }
+]

@@ -1,7 +1,5 @@
 .header-area {
   background-color: #1d1d1d;
-  position: sticky;
-  top: 0;
 }
 .header-area .custom-logo {
   width: 100px;
