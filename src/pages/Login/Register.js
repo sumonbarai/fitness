@@ -1,4 +1,6 @@
 import React from "react";
+import { AiFillGoogleCircle } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Register = () => {
@@ -19,7 +21,18 @@ const Register = () => {
               <input type="submit" value="Sign Up" />
             </div>
             <div className="not-member">
-              Not a member? <Link to="/login">Sing Up Now</Link>
+              All Ready member? <Link to="/login">Login Now</Link>
+            </div>
+            <div className="separator">
+              <p>or</p>
+            </div>
+            <div className="continue-login">
+              <button>
+                <AiFillGoogleCircle></AiFillGoogleCircle>
+              </button>
+              <button>
+                <FaGithub></FaGithub>
+              </button>
             </div>
           </div>
         </form>
