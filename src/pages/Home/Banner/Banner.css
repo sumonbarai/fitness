@@ -11,6 +11,10 @@
   color: #fff;
   position: relative;
 }
+.banner-area h1 {
+  max-width: 1000px;
+  margin: auto;
+}
 .banner-area::before {
   content: "";
   position: absolute;

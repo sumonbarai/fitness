@@ -1,7 +1,23 @@
 .social-area {
   text-align: center;
+  background-color: #f1f1f16e;
 }
 .social-area p {
   max-width: 800px;
   margin: 20px auto;
+}
+.social-area .social-link a {
+  display: inline-block;
+  background-color: #db1d45;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 60px;
+  font-size: 25px;
+  margin: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.social-area .social-link a:hover {
+  background-color: #191818;
 }
