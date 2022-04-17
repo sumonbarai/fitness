@@ -10,3 +10,12 @@
   padding: 10px;
   font-weight: 700;
 }
+.header-area .logOut {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+.header-area a:hover,
+.header-area .logOut:hover {
+  color: #db1d45 !important;
+}

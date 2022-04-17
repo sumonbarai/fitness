@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Login.css";
-import { AiFillGoogleCircle } from "react-icons/ai";
-import { FaGithub } from "react-icons/fa";
+import SocialLogin from "./SocialLogin";
 const Login = () => {
   return (
     <div className="login-form">
@@ -25,17 +24,7 @@ const Login = () => {
             <div className="not-member">
               Not a member? <Link to="/register">Sing Up Now</Link>
             </div>
-            <div className="separator">
-              <p>or</p>
-            </div>
-            <div className="continue-login">
-              <button>
-                <AiFillGoogleCircle></AiFillGoogleCircle>
-              </button>
-              <button>
-                <FaGithub></FaGithub>
-              </button>
-            </div>
+            <SocialLogin></SocialLogin>
           </div>
         </form>
       </div>
