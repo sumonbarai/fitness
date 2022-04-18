@@ -13,7 +13,7 @@
 }
 .banner-area h1 {
   max-width: 1000px;
-  margin: auto;
+  margin: 10px auto;
 }
 .banner-area::before {
   content: "";

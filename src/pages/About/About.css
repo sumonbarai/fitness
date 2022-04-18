@@ -1,0 +1,12 @@
+.about-us {
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 30px;
+}
+
+.about-us img {
+  width: 200px;
+  margin: 20px 0;
+}

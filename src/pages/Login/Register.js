@@ -5,6 +5,7 @@ import {
 } from "react-firebase-hooks/auth";
 import { Link, useNavigate } from "react-router-dom";
 import auth from "../../firebase.init";
+import Loading from "../Shared/Loading/Loading";
 import SocialLogin from "./SocialLogin";
 
 const Register = () => {
@@ -13,6 +14,15 @@ const Register = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const navigate = useNavigate();
   const [updateProfile, updating] = useUpdateProfile(auth);
+
+  if (loading || updating) {
+    return (
+      <div>
+        <Loading></Loading>
+      </div>
+    );
+  }
+
   // create an account
   const handleSignUp = async (event) => {
     event.preventDefault();

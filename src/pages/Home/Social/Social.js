@@ -18,14 +18,14 @@ const Social = () => {
           more leads.please follow on social media
         </p>
         <div className="social-link">
-          <a target="_blank" rel="noreferrer" href="https://www.facebook.com/">
+          <a target="_blank" href="https://www.facebook.com/">
             <BsFacebook></BsFacebook>
           </a>
 
-          <a target="_blank" rel="noreferrer" href="https://www.youtube.com/">
+          <a target="_blank" href="https://www.youtube.com/">
             <BsYoutube></BsYoutube>
           </a>
-          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/">
+          <a target="_blank" href="https://www.instagram.com/">
             <BsInstagram></BsInstagram>
           </a>
         </div>

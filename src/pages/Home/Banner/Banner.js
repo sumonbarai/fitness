@@ -7,9 +7,7 @@ const Banner = () => {
   return (
     <div className="banner-area">
       <div className="container">
-        <h1>
-          BE STRONGER THAN YOUR <br /> STRONGEST EXCUSE{" "}
-        </h1>
+        <h1>BE STRONGER THAN YOUR STRONGEST EXCUSE </h1>
         <button
           onClick={() => navigate("/login")}
           className="custom-btn"
