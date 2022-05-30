@@ -21,6 +21,7 @@ const Login = () => {
       </div>
     );
   }
+
   let from = location.state?.from?.pathname || "/";
   if (user || userLogin) {
     navigate(from, { replace: true });
