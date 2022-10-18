@@ -4,7 +4,7 @@ import "./Blog.css";
 const Blog = () => {
   return (
     <div className="blog-area container my-5 ">
-      <h2 className="text-center pt-5">এসাইনমেন্ট -১০ এর প্রশ্নের উত্তর </h2>
+      <h2 className="text-center pt-5 text-uppercase">Some blog Feature </h2>
       <div className="faq-area">
         <div className="question-group">
           <div className="question my-2 fw-bold">
